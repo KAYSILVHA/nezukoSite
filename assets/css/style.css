@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+body{
+    background-color: #C27B8A;
+    
+   
+}
+.img{
+    background-image: url('https://viciados.net/wp-content/uploads/2020/09/20200412-nezuko-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    opacity: 0.7;
+}
+
+main{
+    padding: 30px 300px;
+
+}
+.resumo{
+    display: flex;
+    gap: 50px;
+    height: 400px;
+    width: 100%;
+    align-items: center;    
+}
+
+.resumo img{
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #FED8C3;;
+    width: 300px;
+    height: 300px; 
+}
+
+.text-resumo{
+    align-items: center;
+    height: 250px;
+    width: 450px;
+    margin: 50px;
+    background-color: #da748a7a;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.text-title{
+    width: 450px;
+    height: 1.8em;
+    padding: 0 10px;
+    background-color: #a3243f3f;
+    border-left: 10px solid #a32440ef;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.text-resumo p{
+    padding-top: 30px;
+    padding: 30px 10px;
+}
+
+
+
+
+
+
+
+.mentalidade{
+    align-items: center;
+    height: 100%;
+    width: 450px;
+    margin: 50px;
+    background-color: #da748a7a;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.mentalidade p{
+    padding-top: 30px;
+    padding: 30px 10px;
+}
